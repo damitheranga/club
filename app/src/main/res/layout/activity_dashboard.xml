@@ -6,4 +6,87 @@
     android:layout_height="match_parent"
     tools:context=".activity.DashboardActivity">
 
+
+    <Button
+        android:id="@+id/add_liq"
+        android:layout_width="345dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginBottom="52dp"
+        android:background="#cc0044 "
+        android:text="LIQOUR MANAGMENT"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/add_co"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/add_co"
+        android:layout_width="345dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginBottom="48dp"
+        android:background="#cc0044 "
+        android:text="COCKTAIL MANAGMENT"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/add_emp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/add_emp"
+        android:layout_width="345dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginBottom="47dp"
+        android:background="#cc0044 "
+        android:text="EMPLOYE MANAGMENT"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/add_owner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/add_owner"
+        android:layout_width="345dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginBottom="45dp"
+        android:background="#cc0044 "
+        android:text="BAR REGISTRATION"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="369dp"
+        android:layout_height="297dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginRight="69dp"
+        android:layout_marginBottom="9dp"
+        app:layout_constraintBottom_toTopOf="@+id/add_liq"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dashboad" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
