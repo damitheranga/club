@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,14 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".activity.AddOwnerActivity">
-
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="154dp"
-        app:srcCompat="@drawable/pub" />
+    tools:context=".activity.OwnersUpdateActivity">
 
     <EditText
         android:id="@+id/edOwnerName"
@@ -73,18 +65,10 @@
         android:hint="Address" />
 
     <Button
-        android:id="@+id/btnsave"
+        android:id="@+id/update"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Register"
-        android:onClick="process"/>
-
-    <Button
-        android:id="@+id/btnview"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Viewlist"
-        android:onClick="process"
-        />
+        android:text="Update"
+        android:onClick="Updated"/>
 
 </LinearLayout>
