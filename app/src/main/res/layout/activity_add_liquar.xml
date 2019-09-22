@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:padding="18dp"
+    tools:context=".activity.AddLiquarActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoText="false"
+        android:background="#FBF9FD"
+        android:freezesText="false"
+        android:gravity="center"
+        android:paddingBottom="25dp"
+        android:text="Add Liquar Details"
+        android:textColor="#161515"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif-medium" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="192dp"
+        android:layout_marginLeft="80dp"
+        android:paddingBottom="25dp"
+        app:srcCompat="@drawable/b1" />
+
+    <EditText
+        android:id="@+id/edName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edBrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Brand"
+
+        android:inputType="textPersonName" />
+
+    <Spinner
+        android:id="@+id/spinnerType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edVol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Volumn"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edPer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Alchol Percentage"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Price"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edBatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Batch Code"
+        android:inputType="textPersonName" />
+
+
+
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#43A03D"
+        android:onClick="process"
+        android:text="Save" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="?android:attr/listDivider"
+        />
+
+    <Button
+        android:id="@+id/btnShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6ACAF5"
+        android:onClick="process"
+        android:text="Show ALL" />
+
+</LinearLayout>
