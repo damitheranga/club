@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.DashboardActivity"></activity>
+        <activity android:name=".activity.AddOwnerActivity"></activity>
+        <activity android:name=".activity.DashboardActivity" />
         <activity android:name=".activity.LiquarUpdateActivity" />
         <activity android:name=".activity.LiquarListActivity" />
         <activity android:name=".activity.AddLiquarActivity" />
