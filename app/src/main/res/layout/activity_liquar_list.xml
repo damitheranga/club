@@ -6,6 +6,19 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".activity.LiquarListActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoText="false"
+        android:gravity="center"
+        android:text="Liquar Details"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#7B0A8D"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
     <ListView
         android:id="@+id/lvliquar"
         android:layout_width="match_parent"

@@ -37,6 +37,21 @@ public class DashboardActivity extends AppCompatActivity {
             }
         });
 
+        empbtn = (Button)findViewById(R.id.add_emp);
+
+        empbtn.setOnClickListener(new View.OnClickListener() {
+
+
+
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(DashboardActivity.this, SplashDActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
+
 
 
 
